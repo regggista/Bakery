@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Halaman Login</title>
+        <link rel="stylesheet" href="login.css">
+    </head>
+   
+    <body>
+        <div class="container">
+          <h1>Login</h1>
+            <form onsubmit="redirectToHome(event)">
+                <label>Username</label><br>
+                <input type="text"><br>
+                <label>Password</label><br>
+                <input type="password"><br>
+                <button><strong>Log in</strong></button>
+            </form>
+            <p style="color: white; text-align: center; padding-top: 20px;">Belum punya akun? <a href="register.html" onclick="redirectToRegister()" style="color: white;"><strong>Daftar di sini</strong></a></p>
+        </div>     
+        
+        <script src="JavaScript/javascript.js"></script>
+    </body>
+</html>
